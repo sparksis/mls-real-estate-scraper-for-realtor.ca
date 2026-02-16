@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: mls-real-estate-scraper-for-realtor.ca
+  description: "This document describes a Python wrapper and scraper for Realtor.ca, detailing its installation, local development setup, Docker usage, API context, and functions for scraping property listings and details by city, all under an MIT License."
+  annotations:
+    github.com/project-slug: sparksis/mls-real-estate-scraper-for-realtor.ca
+spec:
+  type: service
+  lifecycle: experimental
+  owner: sparksis
